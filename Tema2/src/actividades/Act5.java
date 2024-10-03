@@ -17,10 +17,15 @@ public class Act5 {
 		
 		if(num1>num2) {
 			
+			
 			System.out.println("El mayor es: " + num1);
-		}else {
-			System.out.println("El mayor es: " + num2);
-		}
+		
+		}else if(num2>num1) {
+			System.out.printf("%d es mayor que %d \n",num2,num1);
+			
+			
+		}else
+			System.out.printf("%d es igual que %d \n",num1,num2);
 	}
 
 
