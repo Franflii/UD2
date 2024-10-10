@@ -12,7 +12,7 @@ public class Act7Pag20 {
 		System.out.println("Escribe un numero:");
 		int a = sca.nextInt();
 		
-		if (a < 10) {
+		if (a <  10) {
 			System.out.println("El numero tiene 1 cifra");
 			
 		}
