@@ -16,7 +16,7 @@ public class Actividades3Boletin {
 			System.out.println("No has introducido una letra");
 		}
 		else if (letra.equals(letra.toUpperCase())) {
-			System.out.println("Es una letra mayuscula");
+			System.out.println("Es una letra mayúscula");
 			
 		}
 		else {
